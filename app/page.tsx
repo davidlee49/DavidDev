@@ -1,13 +1,16 @@
 import Image from "next/image";
-import Card from './components/card/card'
+import ImageCarousel from "./components/imageCarousel/imageCarouselV2";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>
-        David Dev
-        <Card src/>
+      <div>        
+        <ImageCarousel>
+          <div style={{width:'100%', height:'100%'}}>
+            
+          </div>
+        </ImageCarousel>
+
       </div>
-    </main>
+      
   );
 }

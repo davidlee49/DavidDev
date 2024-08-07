@@ -1,0 +1,3 @@
+------v2-------
+- changing the buttons to be defined in the component rather than attached in the useEffect
+- changing the componet to have children so it can have elements inside it
