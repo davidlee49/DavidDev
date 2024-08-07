@@ -2,6 +2,15 @@ import Image from "next/image";
 import ImageCarousel from "./components/imageCarousel/imageCarouselV2";
 
 export default function Home() {
+
+
+
+    
+
+
+
+
+
   return (
       <div>        
         <ImageCarousel>

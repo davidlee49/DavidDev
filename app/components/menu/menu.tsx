@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+// @ts-ignore
 function Menu({cbFuncs}) {
   const {cbDelete, img, i, cbShare, cbFavorite} = cbFuncs
   const [showMenu, setShowMenu] = useState(false)
