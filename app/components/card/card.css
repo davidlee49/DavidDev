@@ -1,0 +1,9 @@
+.card {
+    border-radius: 1rem;
+    overflow: hidden;
+    /* object-fit: contain; */
+}
+
+.card > img {
+    width: 100%;
+}

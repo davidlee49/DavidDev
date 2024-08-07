@@ -1,0 +1,13 @@
+.verticalMosaic {
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+
+}
+
+.overlay {
+    position: relative;
+    background: #922929;
+    outline: auto;
+}
